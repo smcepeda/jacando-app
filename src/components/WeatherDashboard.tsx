@@ -14,7 +14,7 @@ export default function WeatherDashboard() {
         style={{
           borderRadius: 10,
         }}
-        className="m-4 p-2   
+        className=" m-4 p-2   
         "
       >
         <Card.Body>
@@ -25,7 +25,7 @@ export default function WeatherDashboard() {
         style={{
           borderRadius: 10,
         }}
-        className="m-4 p-2"
+        className=" m-4 p-2"
       >
         <Card.Body>
           <WeatherInfo />
