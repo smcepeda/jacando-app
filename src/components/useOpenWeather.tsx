@@ -7,6 +7,8 @@ interface Props {
 }
 
 export default function useOpenWeather({ apiKey }: Props) {
+
+    
   const [apiData, setApiData] = useState(null);
   const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=47.559&lon=7.588&exclude=minutely,alerts,hourly&appid=${apiKey}&units=metric`;
 
