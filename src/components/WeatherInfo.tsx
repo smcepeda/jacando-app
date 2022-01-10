@@ -19,8 +19,6 @@ export default function WeatherInfo() {
     console.log(data);
   }
 
-  console.log(data);
-
   return (
     <div>
       <Row>
